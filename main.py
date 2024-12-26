@@ -9,6 +9,3 @@ def home():
 @app.route('/chess')
 def chess():
     return render_template('index.html')
-
-
-app.run(host='0.0.0.0', port=9000, debug=True)
